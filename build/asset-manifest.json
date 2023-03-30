@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92290295.css",
+    "main.js": "/static/js/main.a0a47e58.js",
+    "static/media/mando.png": "/static/media/mando.757a372ddc1dccd7b47c.png",
+    "static/media/star_wars_logo.png": "/static/media/star_wars_logo.1d2378db722ce446738f.png",
+    "index.html": "/index.html",
+    "main.92290295.css.map": "/static/css/main.92290295.css.map",
+    "main.a0a47e58.js.map": "/static/js/main.a0a47e58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92290295.css",
+    "static/js/main.a0a47e58.js"
+  ]
+}
