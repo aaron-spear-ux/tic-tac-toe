@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tic-tac-toe/static/css/main.82e76144.css",
+    "main.js": "/tic-tac-toe/static/js/main.a0a47e58.js",
+    "static/media/mando.png": "/tic-tac-toe/static/media/mando.757a372ddc1dccd7b47c.png",
+    "static/media/star_wars_logo.png": "/tic-tac-toe/static/media/star_wars_logo.1d2378db722ce446738f.png",
+    "index.html": "/tic-tac-toe/index.html",
+    "main.82e76144.css.map": "/tic-tac-toe/static/css/main.82e76144.css.map",
+    "main.a0a47e58.js.map": "/tic-tac-toe/static/js/main.a0a47e58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e76144.css",
+    "static/js/main.a0a47e58.js"
+  ]
+}
