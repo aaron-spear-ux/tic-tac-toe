@@ -1,0 +1,78 @@
+.square {
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none;
+  width: 4.4rem;
+  height: 4.4rem;
+  font-size: 2.5rem;
+  border-bottom: 0.2rem solid var(--primary-dark);
+  border-right: 0.2rem solid var(--primary-dark);
+  &:nth-child(13),
+  &:nth-child(14),
+  &:nth-child(15),
+  &:nth-child(16) {
+    border-bottom: none;
+  }
+
+  &:nth-child(4),
+  &:nth-child(8),
+  &:nth-child(12),
+  &:nth-child(16) {
+    border-right: none;
+  }
+  i {
+    font-size: 0;
+    &::before {
+      font-size: 2.5rem;
+      color: var(--secondary);
+    }
+    &::after {
+      font-size: 2.5rem;
+      opacity: 1;
+    }
+    &.fa-swords-laser::after {
+      color: #003cff;
+      -webkit-animation: glow-blue 1s ease-in-out infinite alternate;
+      -moz-animation: glow-blue 1s ease-in-out infinite alternate;
+      animation: glow-blue 1s ease-in-out infinite alternate;
+    }
+    &.fa-jedi-order::before {
+      color: #bbb;
+      font-size: 3rem;
+      text-shadow: 1px 1px 1px #000, 0 0 2px #000, 0 0 3px var(--green),
+        0 0 4px var(--green), 0 0 5px var(--green), 0 0 6px var(--green),
+        0 0 7px var(--green);
+    }
+  }
+}
+
+/* Keyframes
+    ----------------------------------*/
+
+@keyframes glow-blue {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px var(--blue),
+      0 0 4px var(--blue), 0 0 5px var(--blue), 0 0 6px var(--blue),
+      0 0 7px var(--blue);
+  }
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 4px var(--blue-light),
+      0 0 6px var(--blue-light), 0 0 8px var(--blue-light),
+      0 0 10px var(--blue-light), 0 0 12px var(--blue-light),
+      0 0 14px var(--blue-light);
+  }
+}
+
+@keyframes glow-red {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px var(--red-dark),
+      0 0 4px var(--red-dark), 0 0 5px var(--red-dark), 0 0 6px var(--red-dark),
+      0 0 7px var(--red-dark);
+  }
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 4px var(--red-light),
+      0 0 6px var(--red-light), 0 0 8px var(--red-light),
+      0 0 10px var(--red-light), 0 0 12px var(--red-light),
+      0 0 14px var(--red-light);
+  }
+}

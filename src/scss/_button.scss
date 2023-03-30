@@ -1,0 +1,25 @@
+@import "../scss/mixins";
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.reset-btn {
+  color: #111;
+  user-select: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 0.4rem 1.1rem;
+  background-color: var(--primary);
+  font: 1.3rem "Righteous", Tahoma, Geneva, Verdana, sans-serif;
+  border: 0.1rem solid var(--primary-light);
+  border-radius: 0.1rem;
+  transition: background-color 0.5s ease;
+  &:active {
+    transition: transform 0.2s ease;
+    @include transform(scale(0.98));
+  }
+  &:hover {
+    background-color: #d0bd19;
+  }
+}

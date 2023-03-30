@@ -1,0 +1,5 @@
+.board {
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}

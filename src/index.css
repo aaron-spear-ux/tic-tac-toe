@@ -1,0 +1,76 @@
+* {
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 14px/18px "Righteous", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--secondary);
+  background-color: var(--tertiary);
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.reset-btn {
+  color: #111;
+  user-select: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 0.4rem 1.1rem;
+  background-color: var(--primary);
+  font: 1.3rem "Righteous", Tahoma, Geneva, Verdana, sans-serif;
+  border: 0.1rem solid var(--primary-light);
+  border-radius: 0.1rem;
+  transition: background-color 0.5s ease;
+}
+.reset-btn:active {
+  transition: transform 0.2s ease;
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+}
+.reset-btn:hover {
+  background-color: #d0bd19;
+}
+
+:root {
+  --primary: rgb(255, 233, 31);
+  --primary-light: rgb(255, 240, 107);
+  --primary-dark: rgba(255, 232, 31, 0.8);
+  --secondary: #bbb;
+  --tertiary: #111;
+  --green: rgb(0, 221, 4);
+  --green-light: rgb(103, 255, 105);
+  --blue: rgb(0, 60, 255);
+  --blue-light: rgb(104, 139, 255);
+  --blue-dark: rgba(0, 60, 255, 0.8);
+  --red: rgb(255, 0, 0);
+  --red-light: rgb(255, 102, 102);
+  --red-dark: rgba(255, 0, 0, 0.8);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 280px;
+  height: 200px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: transparent url("./assets/star_wars_logo.png") no-repeat center;
+  background-size: contain;
+}
+.logo span {
+  font-size: 2.5rem;
+  color: var(--primary);
+}

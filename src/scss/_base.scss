@@ -1,0 +1,14 @@
+$font-stack: "Righteous", Tahoma, Geneva, Verdana, sans-serif;
+
+* {
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 14px/18px $font-stack;
+  color: var(--secondary);
+  background-color: var(--tertiary);
+}

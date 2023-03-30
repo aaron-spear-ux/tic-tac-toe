@@ -1,0 +1,23 @@
+@use "./scss/base";
+@use "./scss/button";
+@import "./scss/variables";
+@import "./scss/mixins";
+
+.container {
+  @include center;
+}
+
+.logo {
+  width: 280px;
+  height: 200px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: transparent url("./assets/star_wars_logo.png") no-repeat center;
+  background-size: contain;
+  span {
+    font-size: 2.5rem;
+    color: var(--primary);
+  }
+}
